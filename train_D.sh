@@ -1,0 +1,1 @@
+nohup build/nt-parser/nt-parser --cnn-mem 1700 -x -T data/train.oracle -d data/dev.oracle -C data/dev.ch -t --lstm_input_dim 128 --hidden_dim 128 -D 0.2 > log.txt &
